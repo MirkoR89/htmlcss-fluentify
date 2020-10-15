@@ -15,6 +15,7 @@ background: #0c3259
 .bg_grey {
   background: #d3d3d3;
 }
+
 /* /Class Utility */
 
 
@@ -28,16 +29,48 @@ header {
 nav {
   height: 50px;
 }
+
+nav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+
 /* /#site_nav */
 
 /* #site_main */
 main {
   height: 1000px;
-  /* /#site_main */
+
 }
+
+.col_3 {
+  width: 33.33%;
+}
+
+.col_2 {
+  width: 50%;
+}
+/* /#site_main */
 
 /* #site_footer */
 footer {
   height: 150px;
 }
 /* /#site_footer */
+
+
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float_left {
+  float: left;

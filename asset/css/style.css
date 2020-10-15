@@ -45,10 +45,9 @@ nav a {
   line-height: 100px;
 }
 
-.container_logo {
+.logo_container {
   width: 15%;
   line-height: 113px;
-
 }
 
 .menu_left {
@@ -70,11 +69,59 @@ nav a {
   border: 1px solid white;
   padding: 5px 12px;
 }
-
-
-
-
 /* /#site_nav */
+
+/* #hero_section */
+.hero_container {
+  height: 450px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.hero_content {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/banner_header.png");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+transform: translateX(20%);
+}
+
+.hero_text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+  color: white;
+}
+
+.hero_text h1 {
+  font-size: 40px;
+  width: 450px;
+}
+
+.hero_text a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+  line-height: 100px;
+  padding: 20px 20px;
+}
+
+.header_bottom {
+  height: 100px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+}
+/* /#hero_section */
+
+
+
 
 /* #site_main */
 main {
@@ -82,15 +129,20 @@ main {
 }
 
 .row_container {
+  height: 400px;
+  
   width: 80%;
   margin: auto;
 }
 
 .col_3 {
+  height: 400px;
   width: 33.33%;
 }
 
 .col_2 {
+  height: 400px;
+
   width: 50%;
 }
 /* /#site_main */
